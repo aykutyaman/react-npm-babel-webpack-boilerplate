@@ -54,5 +54,10 @@
 	"webpack",
 	"npm",
 	"web"
-    ]
+    ],
+    ,
+    "repository": {
+	"type": "",
+	"url": ""
+    }
 }
