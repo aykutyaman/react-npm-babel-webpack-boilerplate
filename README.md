@@ -14,7 +14,7 @@ Run webpack in watch mode with the webpack.config.dev.js config file
 $ npm run dev
 ```
 Now edit [index.jsx](https://github.com/aykutyaman/react-npm-babel-webpack-boilerplate/blob/master/lib/index.jsx) file:
-```
+```jsx
 import React from 'react';
 
 const Hello = React.createClass({
