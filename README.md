@@ -1,3 +1,5 @@
+
+[![Build Status](https://travis-ci.org/aykutyaman/react-npm-babel-webpack-boilerplate.svg?branch=master)](https://travis-ci.org/aykutyaman/react-npm-babel-webpack-boilerplate)
 # react-npm-babel-webpack-boilerplate
 
 ## Installation
