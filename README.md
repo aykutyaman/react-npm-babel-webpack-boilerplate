@@ -26,3 +26,16 @@ export default Hello;
 After that open [index.html](https://github.com/aykutyaman/react-npm-babel-webpack-boilerplate/blob/master/examples/index.html)
 in browser to see the result.
 
+## For npm deploy with travis.ci
+add these to .travis.ci file
+```
+deploy:
+  provider: npm
+  on:
+    branch: master
+```
+After that, execute travis cli command, which encrypt your api_key and add it to the .travis.ci file.
+```
+$ travis encrypt YOUR_API_KEY --add deploy.api_key
+```
+Your api_key will be in the form of ```//registry.npmjs.org/:_authToken=API_KEY``` under the ~/.npmrc file if you use ``` npm login ``` command
