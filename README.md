@@ -25,8 +25,7 @@ const Hello = React.createClass({
 
 export default Hello;
 ```
-After that open [index.html](https://github.com/aykutyaman/react-npm-babel-webpack-boilerplate/blob/master/examples/index.html)
-in browser to see the result.
+After that open Open http://localhost:8080/webpack-dev-server/bundle in your browser to see the result.
 
 ## For npm deploy with travis.ci
 add these to .travis.ci file
